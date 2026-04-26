@@ -1,0 +1,10 @@
+{
+  "name": "camelotpad",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "imgui",
+    "sol2",
+    "lua",
+    "detours"
+  ]
+}

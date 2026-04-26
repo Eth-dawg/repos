@@ -1,0 +1,9 @@
+{
+  "daocProcessName": "game.dll",
+  "injectDllPath": "build/Release/camelotpad_core.dll",
+  "openConfigCombo": "Back+Start",
+  "safeMode": {
+    "disableAutoTargetWithoutReticle": true,
+    "fallbackToTabTarget": true
+  }
+}

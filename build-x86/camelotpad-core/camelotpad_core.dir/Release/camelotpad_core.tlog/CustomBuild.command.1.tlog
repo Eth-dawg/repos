@@ -1,0 +1,10 @@
+^C:\USERS\ETHAN LAPPY\DESKTOP\REPOS\CAMELOTPAD-CORE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Ethan Lappy/Desktop/repos" "-BC:/Users/Ethan Lappy/Desktop/repos/build-x86" --check-stamp-file "C:/Users/Ethan Lappy/Desktop/repos/build-x86/camelotpad-core/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

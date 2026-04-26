@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\DllMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\CamelotPadApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\input\XInputProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\discovery\ValueDiscovery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\integrations\DaochookInterfaces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\render\Dx9LuaUiBridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\actions\ActionRouter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\config\ProfileManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\platform\WinInputEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{82D1549F-F300-3A0A-8A2C-AF94C7339517}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

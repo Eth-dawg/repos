@@ -1,0 +1,4 @@
+C:/Users/Ethan Lappy/Desktop/repos/build-x86/CMakeFiles/ALL_BUILD.dir
+C:/Users/Ethan Lappy/Desktop/repos/build-x86/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Ethan Lappy/Desktop/repos/build-x86/camelotpad-core/CMakeFiles/camelotpad_core.dir
+C:/Users/Ethan Lappy/Desktop/repos/build-x86/tools/injector/CMakeFiles/camelotpad_injector.dir

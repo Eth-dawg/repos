@@ -1,0 +1,9 @@
+C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\DllMain.cpp;C:\Users\Ethan Lappy\Desktop\repos\build-x86\camelotpad-core\camelotpad_core.dir\Release\DllMain.obj
+C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\CamelotPadApp.cpp;C:\Users\Ethan Lappy\Desktop\repos\build-x86\camelotpad-core\camelotpad_core.dir\Release\CamelotPadApp.obj
+C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\input\XInputProcessor.cpp;C:\Users\Ethan Lappy\Desktop\repos\build-x86\camelotpad-core\camelotpad_core.dir\Release\XInputProcessor.obj
+C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\discovery\ValueDiscovery.cpp;C:\Users\Ethan Lappy\Desktop\repos\build-x86\camelotpad-core\camelotpad_core.dir\Release\ValueDiscovery.obj
+C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\integrations\DaochookInterfaces.cpp;C:\Users\Ethan Lappy\Desktop\repos\build-x86\camelotpad-core\camelotpad_core.dir\Release\DaochookInterfaces.obj
+C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\render\Dx9LuaUiBridge.cpp;C:\Users\Ethan Lappy\Desktop\repos\build-x86\camelotpad-core\camelotpad_core.dir\Release\Dx9LuaUiBridge.obj
+C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\actions\ActionRouter.cpp;C:\Users\Ethan Lappy\Desktop\repos\build-x86\camelotpad-core\camelotpad_core.dir\Release\ActionRouter.obj
+C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\config\ProfileManager.cpp;C:\Users\Ethan Lappy\Desktop\repos\build-x86\camelotpad-core\camelotpad_core.dir\Release\ProfileManager.obj
+C:\Users\Ethan Lappy\Desktop\repos\camelotpad-core\src\platform\WinInputEmitter.cpp;C:\Users\Ethan Lappy\Desktop\repos\build-x86\camelotpad-core\camelotpad_core.dir\Release\WinInputEmitter.obj

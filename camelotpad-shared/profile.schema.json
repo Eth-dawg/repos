@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://camelotpad.local/schema/profile.schema.json",
+  "title": "CamelotPad Profile",
+  "type": "object",
+  "required": [
+    "profileName",
+    "input",
+    "camera",
+    "targeting",
+    "quickbars"
+  ],
+  "properties": {
+    "profileName": { "type": "string", "minLength": 1 },
+    "input": {
+      "type": "object",
+      "required": ["leftDeadzone", "rightDeadzone", "invertY"],
+      "properties": {
+        "leftDeadzone": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "rightDeadzone": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "invertY": { "type": "boolean" }
+      }
+    },
+    "camera": {
+      "type": "object",
+      "required": ["sensitivityX", "sensitivityY", "pitchMin", "pitchMax"],
+      "properties": {
+        "sensitivityX": { "type": "number", "minimum": 0.01, "maximum": 20.0 },
+        "sensitivityY": { "type": "number", "minimum": 0.01, "maximum": 20.0 },
+        "pitchMin": { "type": "number", "minimum": -89.0, "maximum": 0.0 },
+        "pitchMax": { "type": "number", "minimum": 0.0, "maximum": 89.0 }
+      }
+    },
+    "targeting": {
+      "type": "object",
+      "required": ["priority", "maxRange", "tabFallback"],
+      "properties": {
+        "priority": { "type": "string", "enum": ["hostileFirst", "friendlyFirst"] },
+        "maxRange": { "type": "number", "minimum": 0.0, "maximum": 10000.0 },
+        "tabFallback": { "type": "boolean" }
+      }
+    },
+    "quickbars": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 100,
+      "items": {
+        "type": "object",
+        "required": ["button", "bar", "slot"],
+        "properties": {
+          "button": { "type": "string" },
+          "bar": { "type": "integer", "minimum": 1, "maximum": 10 },
+          "slot": { "type": "integer", "minimum": 1, "maximum": 10 }
+        }
+      }
+    }
+  }
+}

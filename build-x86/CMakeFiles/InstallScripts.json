@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Ethan Lappy/Desktop/repos/build-x86/cmake_install.cmake",
+		"C:/Users/Ethan Lappy/Desktop/repos/build-x86/camelotpad-core/cmake_install.cmake",
+		"C:/Users/Ethan Lappy/Desktop/repos/build-x86/tools/injector/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
